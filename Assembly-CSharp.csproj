@@ -36,12 +36,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\Observer\Sphere.cs" />
      <Compile Include="Assets\_Scripts\Observer\StateSphere.cs" />
+     <Compile Include="Assets\_Scripts\Observer\Sphere.cs" />
+     <Compile Include="Assets\_Scripts\Observer\Observer.cs" />
      <Compile Include="Assets\_Scripts\Observer\StateRouge.cs" />
      <Compile Include="Assets\_Scripts\Observer\StateBleu.cs" />
      <Compile Include="Assets\_Scripts\Observer\StateVert.cs" />
-     <Compile Include="Assets\_Scripts\Observer\Observer.cs" />
+     <Compile Include="Assets\_Scripts\Command\ICommand.cs" />
+     <Compile Include="Assets\_Scripts\Command\CTele.cs" />
+     <Compile Include="Assets\_Scripts\Command\CRadio.cs" />
+     <Compile Include="Assets\_Scripts\Command\Remote.cs" />
+     <Compile Include="Assets\_Scripts\Command\Etat.cs" />
+     <Compile Include="Assets\_Scripts\Command\EtatOn.cs" />
+     <Compile Include="Assets\_Scripts\Command\TeleOnCommand.cs" />
+     <Compile Include="Assets\_Scripts\Command\TeleOffCommand.cs" />
+     <Compile Include="Assets\_Scripts\Command\RadioOnCommand.cs" />
+     <Compile Include="Assets\_Scripts\Command\RadioOffCommand.cs" />
+     <Compile Include="Assets\_Scripts\Command\InputController.cs" />
+     <Compile Include="Assets\_Scripts\Command\EtaOff.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:/Programmes/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
