@@ -10,10 +10,10 @@ public class StateBleu : StateSphere, Observer
    {
       return state;
    }
-    public override void Enter(Sphere sphere)
-    {
-        ChangeColor(sphere);
-    }
+   public override void Enter(Sphere sphere)
+   {
+      ChangeColor(sphere);
+   }
 
 
    public override void ChangeColor(Sphere sphere)

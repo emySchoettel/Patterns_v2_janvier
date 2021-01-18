@@ -9,11 +9,10 @@ public class Sphere : MonoBehaviour
     private Material material;
     private StateSphere state;
 
-    public StateSphere currentstate{
-        get { return state;}
+    public  StateSphere currentstate 
+    {
+        get { return state; }
     }
-
-    private StateSphere stateSphere;
     public StateBleu stateBleu = new StateBleu(); 
     public StateRouge stateRouge = new StateRouge();
     public readonly StateVert stateVert = new StateVert();
